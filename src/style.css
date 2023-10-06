@@ -1,0 +1,43 @@
+li {
+  list-style-type: square;
+}
+
+ol {
+  padding-top: 20px;
+}
+
+h1 {
+  text-transform: capitalize;
+  color: darkmagenta;
+}
+
+a {
+  font-size: 18px;
+  padding: 20px;
+}
+
+.redirections,
+.first-P,
+.first-h1,
+.email {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+   height: 150px;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+@media (max-width:800px) {
+    .images{
+        display: flex;
+        flex-direction: column;
+    }
+}
